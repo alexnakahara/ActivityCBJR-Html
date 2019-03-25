@@ -1,0 +1,117 @@
+body {
+   background: url("../img/fundo.jpg") no-repeat fixed top center  / 100% auto;
+}
+
+#cabeca{
+    width: 31%;
+    margin-bottom: 20px;
+}
+#menu ul {
+    padding: 20px;
+    margin: -13px;
+    width: 40%;
+    background-color: #000;
+    list-style: none;
+    font: 130% Matura MT Script Capitals;
+}
+
+#menu ul li { display: Inline; }
+
+#menu ul li a {
+    color: #ffd2a2;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+#menu ul li a:hover {
+    background-color:#CC0033;
+    color: black;
+    border-bottom:5px solid #EA0000;
+}
+
+img.centro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.capa{
+    background: url(../img/show.jpg) no-repeat center center / 100% auto white;
+    background-size: cover;
+    text-align: center;
+    padding: 312px;
+    position: relative;
+    top: 13px;
+    margin: -8px;
+    margin-bottom: 30px;
+}
+p.txt{
+    text-align: justify;
+    background-color: #fd6b42;
+    color: #131212;
+    margin: 20px;
+    position: relative;
+    float: left;
+    left: -207px;
+    width: 344px;
+    border-radius: 28px;
+    padding: 40px;
+    bottom: 63px;
+}
+p.txt2{
+    text-align: justify;
+    margin: 10px;
+}
+
+
+h1 {
+    text-align:       center;
+    font-family:      Rammetto One;
+    background-color: #000;
+    color:            #fa0;
+    margin:           20px;
+    padding:          20px;
+}
+.legenda {
+    font-family: Indie Flower;
+    font-weight: bold;
+    text-align: right;
+    padding: 6px;
+    background-color: rgb(105, 148, 181);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    color: #191817;
+}
+.lupa {
+    position: absolute;
+    top:      20px;
+    right:    20px;
+    color: white;
+}
+a:hover {
+    background-color: #ffb8b3;
+    color:            #000;
+}
+
+div.membros {
+    width: 250px;
+    margin: 42px;
+    float: left;
+    position: relative;
+    left: 12%;
+
+}
+div.membros img {
+    width: 250px;
+    height: 172px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#banda{
+    width: 510px;
+    height: 376px;
+    border: 5px solid red;
+}
