@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CBJR</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link href="font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" />
+
+    </head>
+        <body>
+            <img class="centro" src="img/capa.png" id="cabeca">
+        
+                <div id="menu">
+                        <ul>
+                             <li><a href="index.html">Home</a></li> 
+                             <li><a href="sobre.html" >Sobre</a></li>
+                             <li><a href="discografia.html" >Discografia</a></li>
+                             <li><a href="contato.html">Contato</a></li>
+                            
+                         </ul>
+                      </div>
+                      <br>
+                    <div class="bloco">
+                            <h1>Contato</h1>
+                            <form name="frmCadastro" action="sucesso.html" method="get">
+                                <div class="espaco">
+                                <div>
+                                    <label>Nome</label> 
+                                    <input type="text" name="nome" placeholder="Nome Completo" style="width:300px" required />
+                                </div>
+                                <div>
+                                    <label>Whats App</label>
+                                    <input type="phone" name="telefone" min="100px" max="80" />
+                                </div>
+                              
+                                <div>
+                                    <label>E-Mail</label>
+                                    <input type="email" name="email" />
+                                </div>
+                                <div>
+                                    <label>Gênero:</label>
+                                    <label><input type="radio" name="sexo" value="M" /> <i class="fa fa-male"></i> Masculino</label>
+                                    <label><input type="radio" name="sexo" value="F" /> <i class="fa fa-female"></i> Feminino</label>
+                                    <label><input type="radio" name="sexo" value="O" /> </i> Outros</label>
+                                </div>
+                                
+                                <div>
+                                    <label>Estado</label>
+                                    <select name="curso">
+                                        <option value="Ac">Acre</option>
+                                        <option value="AL">Alagoas</option>
+                                        <option value="AP">Amapá</option>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="BA">Bahia</option>
+                                        <option value="CE">Ceará</option>
+                                        <option value="DF">Distrito Federal</option>
+                                        <option value="ES">Espírito Santo </option>
+                                        <option value="GO">Goiás</option>
+                                        <option value="MA">Maranhão</option>
+                                        <option value="MT">Mato Grosso</option>
+                                        <option value="MS">Mato Grosso do Sul</option>
+                                        <option value="MG">Minas Gerais</option>
+                                        <option value="PA">Pará</option>
+                                        <option value="PB">Paraíba</option>
+                                        <option value="PR">Paraná</option>
+                                        <option value="PE">Pernambuco</option>
+                                        <option value="PI">Piauí</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="RS">Rio Grande do Sul</option>
+                                        <option value="RO">Rondônia</option>
+                                        <option value="RR">Roraima</option>
+                                        <option value="SC">Santa Catarina</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="SE">Sergipe</option>
+                                        <option value="TO">Tocantins</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label>Comentários</label><br />
+                                    <textarea name="comentarios" cols="80" rows="10" style="margin: 0px; width: 335px; height: 69px;"></textarea>
+                                </div>
+                                <div>
+                                    <input type="reset" value="Apagar" />
+                                    <input type="submit" value="Enviar" />
+                                </div>
+                            </form>
+                        </div>
+                </div>  
+                  
+
+
+        </body>
+</html>
+
